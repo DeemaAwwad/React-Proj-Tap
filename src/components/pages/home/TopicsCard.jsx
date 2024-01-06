@@ -1,5 +1,4 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+
 import { Link } from 'react-router-dom';
 import './Topics.css'
 export default function TopicsCard({uiTopics,loading}) {

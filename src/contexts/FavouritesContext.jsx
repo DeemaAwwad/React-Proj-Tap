@@ -19,6 +19,7 @@ export default function FavouritesProvider({ children }) {
   }
 
   function addToFavItems({ id, topic, iamge, rating }) {
+  
     if (!isFavItem(id)) {
       setFavItems((prev) => [...prev, { id, topic, iamge, rating }]);
     }

@@ -8,3 +8,17 @@
     bottom: 0;
     padding-left: 70px;
 }
+
+.favo-card{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  
+
+}
+.favo-card h2{
+font-size: 1rem;
+}
+.card-fav{
+    width: 10%;
+}

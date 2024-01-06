@@ -28,7 +28,7 @@ export default function DetailsPage() {
       addToFavItems(topic);
     }
   }
-  console.log(topic?.subtopics);
+ 
   let result = "";
   return (
     <section className="languages">
@@ -59,7 +59,7 @@ export default function DetailsPage() {
         </li>
      ` ;
                 result = result + listItem;
-                console.log(result)
+              
                 
               })}
                   {result} 
