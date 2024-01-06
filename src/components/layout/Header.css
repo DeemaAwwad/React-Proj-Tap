@@ -1,0 +1,35 @@
+.header{
+    background-color: var(--bg_default);
+    padding-block: 1rem;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.3);
+}
+.container-fluid{
+   padding-left: 70px;
+}
+.header-content{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.btn{
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+    padding-right: 70px;
+}
+h1{
+    font-size: 1.5rem;
+    color: var(--brand-primary);
+    font-weight: 600;
+}
+.btn button{
+    background: var(--bg_default);
+    border:1px solid  var(--lines-color);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 6px 15px;
+    gap: 0.4rem;
+    font-size: 1.3rem;
+   
+}

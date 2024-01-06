@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    padding-block: 2rem;
+    background-color: var(--bg_body);
+}
+.footer ion-icon{
+    color: var(--heart-color);
+    font-size: 1.5rem;
+}

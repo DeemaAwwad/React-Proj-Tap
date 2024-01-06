@@ -1,0 +1,10 @@
+.favourites{
+    width: 100%;
+    height: auto;
+    background-color: var(--bg_default);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 70px;
+}
